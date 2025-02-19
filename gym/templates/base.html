@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'clients/styles.css' %}">
+    <title>Gimnasio GYM</title>
+</head>
+<body>
+    <nav>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+            <div style="display: flex; gap: 15px;">
+                <div class="dropdown">
+                    <a href="#servicios">Servicios</a>
+                    <div class="dropdown-content dropdown-e">
+                        <div class="column">
+                            <h1 class="text1">Planes</h1>
+                            <a href="#servicio1">Planes Quincenales</a>
+                            <a href="#servicio2">Planes Mensuales</a>
+                            <a href="#servicio3">Planes Anuales</a>
+                        </div>
+                        <div class="column">
+                            <h1 class="text1">Salud</h1>
+                            <a href="#servicio4">Planes de Salud</a>
+                            <a href="#servicio5">Fisioterapia</a>
+                            <a href="#servicio6">Nutrición</a>
+                        </div>
+                        <div class="column">
+                            <h1 class="text1">Tienda</h1>
+                            <a href="#servicio7">Suplementos</a>
+                            <a href="#servicio8">Implementos</a>
+                            <a href="#servicio9">Dispositivos y Ropa</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#ofertas">Ofertas</a>
+                    <div class="dropdown-content dropdown-e">
+                        <div class="column">
+                            <h1 class="text1">Institucionales</h1>
+                            <a href="#servicio1">Cofrem</a>
+                            <a href="#servicio2">Cooprometa</a>
+                            <a href="#servicio3">Otros</a>
+                        </div>
+                        <div class="column">
+                            <h1 class="text1">Academicos</h1>
+                            <a href="#servicio4">Instituciones Educativas</a>
+                            <a href="#servicio5">Universidades</a>
+                            <a href="#servicio6">SENA</a>
+                        </div>
+                        <div class="column">
+                            <h1 class="text1">Salud</h1>
+                            <a href="#servicio7">Discapacidad Motora</a>
+                            <a href="#servicio8">Discapacidad Mental</a>
+                            <a href="#servicio9">Otras Discapacidades</a>
+                        </div>
+                        <div class="column">
+                            <h1 class="text1">Pago por Grupo</h1>
+                            <a href="#servicio7">Para 2 Personas</a>
+                            <a href="#servicio8">Para 3 Personas</a>
+                            <a href="#servicio9">Para +3 Personas</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#ubicaciones">Ubicaciones</a>
+            </div>
+            <div style="display: flex; gap: 15px;">
+                <a href="#iniciar-sesion">Iniciar sesión</a>
+                <a href="#registro">Registro</a>
+            </div>
+        </div>
+    </nav>
+    <footer>
+        <div style="display: flex; justify-content: space-around; padding: 2px 0;">
+            <a style="color: white;" href="#terminos">Términos y Condiciones</a>
+            <a style="color: white;" href="#politicas">Políticas</a>
+            <a style="color: white;" href="#ayuda">Ayuda</a>
+        </div>
+        <p>&copy; 2023 LOGOGYM. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

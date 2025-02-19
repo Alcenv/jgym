@@ -1,0 +1,98 @@
+body {
+    background-image: url('images/fondo1.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Color del texto para que sea legible sobre el fondo */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    background-color: transparent;
+    padding: 8px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Borde semitransparente */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 10px; /* Margen exterior */
+}
+
+nav a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    padding: 90px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 90px;
+}
+.section {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    z-index: 1;
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content {
+    gap: 10px;
+}
+.dropdown-content .column a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content .column a:hover {
+    background-color: #555;
+}
+.text1{
+    color: white;
+}
